@@ -1,0 +1,40 @@
+{
+  "name": "@shared-house/shared",
+  "version": "1.0.0",
+  "description": "Package for shared functions and types",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Benjamin HARTMANN",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "keywords": [
+    "npm",
+    "library",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "prettier": "^3.4.2"
+  }
+}
