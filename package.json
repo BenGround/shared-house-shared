@@ -1,5 +1,5 @@
 {
-  "name": "@shared-house/shared",
+  "name": "@benhart44/shared-house-shared",
   "version": "1.0.0",
   "description": "Package for shared functions and types",
   "main": "dist/index.js",
@@ -15,7 +15,6 @@
     }
   },
   "type": "module",
-  "private": true,
   "scripts": {
     "build": "tsc"
   },
@@ -23,7 +22,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/BenGround/shared-house-shared"
   },
   "keywords": [
     "npm",
