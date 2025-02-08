@@ -8,7 +8,7 @@ import {
 } from '../types/errorCodes.js';
 
 const nameCodeRegex = /^[a-zA-Z0-9_]{3,25}$/;
-const timeRegex = /^(?:[01]?\d|2[0-3]):([0-5]\d)$/;
+const timeRegex = /^(?:[01]?\d|2[0-4]):([0-5]\d)$/;
 const emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
 const namesRegex = /^[a-zA-Z0-9\s_\u3040-\u30FF\u4E00-\u9FFF]{3,25}$/;
 const usernameRegex = /^[a-zA-Z0-9\s_\u3040-\u30FF\u4E00-\u9FFF\u00C0-\u00FF]{3,25}$/;
